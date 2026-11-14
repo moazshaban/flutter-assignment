@@ -34,8 +34,9 @@ class HomeScreen extends StatelessWidget {
                         ),
                         child: const CircleAvatar(
                           radius: 78,
-                          backgroundImage:
-                              AssetImage('assets/IMG_20260820_214150.jpeg'),
+                          backgroundImage: AssetImage(
+                            'assets/IMG_20260820_214150.jpeg',
+                          ),
                         ),
                       ),
                       const SizedBox(height: 24),
@@ -55,8 +56,8 @@ class HomeScreen extends StatelessWidget {
                         'Flutter Developer · Level 4',
                         textAlign: TextAlign.center,
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                              color: const Color(0xFF627D98),
-                            ),
+                          color: const Color(0xFF627D98),
+                        ),
                       ),
                       const SizedBox(height: 22),
                       const Divider(),
@@ -67,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                           Icon(Icons.phone_outlined, color: Color(0xFF0F766E)),
                           SizedBox(width: 10),
                           Text(
-                            '+201157741532',
+                            '+201064670346',
                             style: TextStyle(
                               fontSize: 16,
                               color: Color(0xFF334E68),
